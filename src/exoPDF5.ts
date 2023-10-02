@@ -91,6 +91,15 @@ class AddressBook {
         }
     }
 
+    // display contacts who contains a specific string in their name or email
+    displayContactsByString(str: string): void {
+        for (let contact of this.contacts) {
+            if (contact.name.includes(str) || contact.email.includes(str)) {
+                console.log(contact);
+            }
+        }
+    }
+
 }
 
 
