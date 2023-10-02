@@ -17,6 +17,13 @@
     "dev:exo5": "ts-node src/exo5.ts",
     "dev:exo6": "ts-node src/exo6.ts",
     "dev:exo7": "ts-node src/exo7.ts",
+    
+    "dev:exoPDF1": "ts-node src/exoPDF1.ts",
+    "dev:exoPDF2": "ts-node src/exoPDF2.ts",
+    "dev:exoPDF3": "ts-node src/exoPDF3.ts",
+    "dev:exoPDF4": "ts-node src/exoPDF4.ts",
+    "dev:exoPDF5": "ts-node src/exoPDF5.ts",
+
     "test": "jest"
   },
   "keywords": [],
