@@ -100,6 +100,14 @@ class AddressBook {
         }
     }
 
+    // reafect id to all contacts
+    reafectId(): void {
+        let id = 1;
+        for (let contact of this.contacts) {
+            contact.id = id;
+            id++;
+        }
+    }
 }
 
 
@@ -132,7 +140,53 @@ let contact4: contact = {
     email: "martino@brie.com",
     phone: "0123468789"
 };
+let contact5: contact = {
+    id: 5,
+    name: "Alice",
+    email: "alice@example.com",
+    phone: "0123456789"
+};
 
+let contact6: contact = {
+    id: 6,
+    name: "Bob",
+    email: "bob@example.com",
+    phone: "0123456790"
+};
+let contact7: contact = {
+    id: 7,
+    name: "Sophie",
+    email: "sophie@example.com",
+    phone: "0123456791"
+};
+
+let contact8: contact = {
+    id: 8,
+    name: "Michael",
+    email: "michael@example.com",
+    phone: "0123456792"
+};
+
+let contact9: contact = {
+    id: 9,
+    name: "Emily",
+    email: "emily@example.com",
+    phone: "0123456793"
+};
+
+let contact10: contact = {
+    id: 10,
+    name: "David",
+    email: "david@example.com",
+    phone: "0123456794"
+};
+
+let contact11: contact = {
+    id: 11,
+    name: "Laura",
+    email: "laura@example.com",
+    phone: "0123456795"
+};
 
 addressBook.addContact(contact1);
 addressBook.addContact(contact2);
